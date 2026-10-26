@@ -1,0 +1,24 @@
+# CLion / CMake 编译产物
+cmake-build-*/
+build/
+out/
+
+# STM32CubeIDE 编译产物
+Debug/
+Release/
+*.elf
+*.hex
+*.bin
+*.map
+*.o
+*.d
+
+# CLion 本地配置
+.idea/
+*.iml
+CMakeUserPresets.json
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
+desktop.ini
